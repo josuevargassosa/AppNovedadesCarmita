@@ -1,4 +1,4 @@
-name: Novedades Carmita
+name: Novedades
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  get: ^4.1.4
   flutter:
     sdk: flutter
 
@@ -30,6 +31,8 @@ dependencies:
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
+  hexcolor: ^2.0.3
+  curved_navigation_bar: ^0.3.7 
   flutter_test:
     sdk: flutter
 
