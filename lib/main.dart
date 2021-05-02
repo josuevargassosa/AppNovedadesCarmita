@@ -15,13 +15,6 @@ class NovedadesCarmita extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      supportedLocales: [
-        const Locale('en', 'US'), // English, no country code
-        const Locale('es', 'ES'), // Arabic, no country code
-        const Locale.fromSubtags(
-            languageCode: 'zh'), // Chinese *See Advanced Locales below*
-        // ... other locales the app supports
-      ],
       theme: ThemeData(
           primaryIconTheme: IconThemeData(
         color: Colors.white,

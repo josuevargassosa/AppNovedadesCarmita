@@ -87,7 +87,7 @@ packages:
     source: hosted
     version: "4.1.4"
   hexcolor:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: hexcolor
       url: "https://pub.dartlang.org"
